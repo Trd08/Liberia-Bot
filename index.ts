@@ -95,7 +95,7 @@ client.on('messageCreate', (message) => {
             content: "By 1877, the True Whig Party was the country's most powerful political entity.[32] It was made up primarily of Americo-Liberians, who maintained social, economic and political dominance well into the 20th century, repeating patterns of European colonists in other nations in Africa. Competition for office was usually contained within the party; a party nomination virtually ensured election.[32]",
         })
     }
-    if(message.content.toLowerCase().includes("britian") || message.content.toLowerCase().includes("england") || message.content.toLowerCase().includes("united kingdom")) {
+    if(message.content.toLowerCase().includes("britain") || message.content.toLowerCase().includes("england") || message.content.toLowerCase().includes("united kingdom")) {
         message.channel.send({
             content: "Pressure from the United Kingdom, which controlled Sierra Leone to the northwest, and France, with its interests in the north and east, led to a loss of Liberia's claims to extensive territories. Both Sierra Leone and the Ivory Coast annexed territories.[33] Liberia struggled to attract investment to develop infrastructure and a larger, industrial economy.",
         })
@@ -110,7 +110,7 @@ client.on('messageCreate', (message) => {
             content: "American and other international interests emphasized resource extraction, with rubber production a major industry in the early 20th century.[35] In 1914, Imperial Germany accounted for three quarters of the trade of Liberia. This was a cause for concern among the British colonial authorities of Sierra Leone and the French colonial authorities of French Guinea and the Ivory Coast as tensions with Germany increased.[36]",
         })
     }
-    if(message.content.toLowerCase().includes("neutral" || "world war 1")) {
+    if(message.content.toLowerCase().includes("world war 1") || message.content.toLowerCase().includes("neutral")) {
         message.channel.send({
             content: "Liberia remained neutral during World War I until August 4, 1917, upon declaring war on Germany. Subsequently, it was one of 32 nations to take part in the Versailles Peace Conference in 1919, which ended the war and established the League of Nations; Liberia was among the few African and non-Western nations to participate in both the conference and the founding of the League.[37]",
         })
@@ -125,7 +125,7 @@ client.on('messageCreate', (message) => {
             content: "Soon after, allegations of modern slavery in Liberia led the League of Nations to establish the Christy commission. Findings included government involvement in widespread \"Forced or compulsory labour\". Minority ethnic groups especially were exploited in a system that enriched well-connected elites.[38] As a result of the report, President Charles D. B. King and Vice President Allen N. Yancy resigned.[39]",
         })
     }
-    if(message.content.toLowerCase().includes("modern" || "world war 2")) {
+    if(message.content.toLowerCase().includes("world war 2") || message.content.toLowerCase().includes("modern")) {
         message.channel.send({
             content: "In the mid-20th century, Liberia gradually began to modernize with American assistance. During World War II, the United States made major infrastructure improvements to support its military efforts in Africa and Europe against Germany. It built the Freeport of Monrovia and Roberts International Airport under the Lend-Lease program before its entry into the Second World War.[40]",
         })
@@ -135,7 +135,7 @@ client.on('messageCreate', (message) => {
             content: "After the war, President William Tubman encouraged foreign investment, with Liberia achieving the second-highest rate of economic growth in the world during the 1950s.[40] In international affairs, it was a founding member of the United Nations, a vocal critic of South African apartheid,[41] a proponent of African independence from European colonial powers, and a supporter of Pan-Africanism. Liberia also helped to fund the Organisation of African Unity.[42]",
         })
     }
-    if(message.content.toLowerCase().includes("coup" || "war" || "fraud" || "fivil" || "fight" || "factions" || "peace" || "insurrection" || "force" || "troops" || "execute")) {
+    if(message.content.toLowerCase().includes("coup") || message.content.toLowerCase().includes("war") || message.content.toLowerCase().includes("fraud") || message.content.toLowerCase().includes("civil") || message.content.toLowerCase().includes("fight") || message.content.toLowerCase().includes("factions") || message.content.toLowerCase().includes("peace") || message.content.toLowerCase().includes("insurrection") || message.content.toLowerCase().includes("force") || message.content.toLowerCase().includes("troops")) {
         message.channel.send({
             content: "On April 12, 1980, a military coup led by Master Sergeant Samuel Doe of the Krahn ethnic group overthrew and killed President William R. Tolbert, Jr. Doe and the other plotters later executed a majority of Tolbert's cabinet and other Americo-Liberian government officials and True Whig Party members.[43] The coup leaders formed the People's Redemption Council (PRC) to govern the country.[43] A strategic Cold War ally of the West, Doe received significant financial backing from the United States while critics condemned the PRC for corruption and political repression.[43]",
         })
