@@ -208,5 +208,10 @@ client.on('messageCreate', (message) => {
             content: "Liberia is a global biodiversity hotspot—a significant reservoir of biodiversity that is under threat from humans.[75]\n\nSlash-and-burn agriculture is one of the human activities eroding Liberia's natural forests.[76] A 2004 UN report estimated that 99% of Liberians burned charcoal and fuel wood for cooking and heating, resulting in deforestation.[76]\n\nIllegal logging has increased in Liberia since the end of the Second Civil War in 2003.[75] In 2012, President Sirleaf granted licenses to companies to cut down 58% of all the primary rainforest left in Liberia.[75] After international protests, many of those logging permits were canceled.[75] In September 2014, Liberia and Norway struck an agreement whereby Liberia ceased all logging in exchange for $150 million in development aid.[75]\n\nPollution is a significant issue in Monrovia.[77] Since 2006, the international community has paid for all garbage collection and disposal in Monrovia via the World Bank.[78] ",
         })
     }
-})
+    if(message.content.toLowerCase().includes("yes")) {
+        message.channel.send({
+            content: "Assault",
+        })
+    }
+}) 
 client.login(process.env.TOKEN)
