@@ -135,7 +135,7 @@ client.on('messageCreate', (message) => {
             content: "After the war, President William Tubman encouraged foreign investment, with Liberia achieving the second-highest rate of economic growth in the world during the 1950s.[40] In international affairs, it was a founding member of the United Nations, a vocal critic of South African apartheid,[41] a proponent of African independence from European colonial powers, and a supporter of Pan-Africanism. Liberia also helped to fund the Organisation of African Unity.[42]",
         })
     }
-    if(message.content.toLowerCase().includes("coup") || message.content.toLowerCase().includes("war") || message.content.toLowerCase().includes("fraud") || message.content.toLowerCase().includes("civil") || message.content.toLowerCase().includes("fight") || message.content.toLowerCase().includes("factions") || message.content.toLowerCase().includes("peace") || message.content.toLowerCase().includes("insurrection") || message.content.toLowerCase().includes("force") || message.content.toLowerCase().includes("troops")) {
+    if(message.content.toLowerCase().includes("coup") || message.content.toLowerCase().includes("war") || message.content.toLowerCase().includes("fraud") || message.content.toLowerCase().includes("civil") || message.content.toLowerCase().includes("fight") || message.content.toLowerCase().includes("factions") || message.content.toLowerCase().includes("insurrection") || message.content.toLowerCase().includes("force") || message.content.toLowerCase().includes("troops")) {
         message.channel.send({
             content: "On April 12, 1980, a military coup led by Master Sergeant Samuel Doe of the Krahn ethnic group overthrew and killed President William R. Tolbert, Jr. Doe and the other plotters later executed a majority of Tolbert's cabinet and other Americo-Liberian government officials and True Whig Party members.[43] The coup leaders formed the People's Redemption Council (PRC) to govern the country.[43] A strategic Cold War ally of the West, Doe received significant financial backing from the United States while critics condemned the PRC for corruption and political repression.[43]",
         })
@@ -152,6 +152,56 @@ client.on('messageCreate', (message) => {
             content: "Under Taylor's leadership, Liberia became internationally known as a pariah state due to its use of blood diamonds and illegal timber exports to fund the Revolutionary United Front in the Sierra Leone Civil War.[48] The Second Liberian Civil War began in 1999 when Liberians United for Reconciliation and Democracy, a rebel group based in the northwest of the country, launched an armed insurrection against Taylor.[49]",
         })
     }
+    if(message.content.toLowerCase().includes("attacks")) {
+        message.channel.send({
+            content: "In March 2003, a second rebel group, Movement for Democracy in Liberia, began launching attacks against Taylor from the southeast.[49] Peace talks between the factions began in Accra in June of that year, and Taylor was indicted by the Special Court for Sierra Leone for crimes against humanity the same month.[48] By July 2003, the rebels had launched an assault on Monrovia.[50] Under heavy pressure from the international community and the domestic Women of Liberia Mass Action for Peace movement,[51] Taylor resigned in August 2003 and went into exile in Nigeria.[52] A peace deal was signed later that month.[53]",
+        })
+    }
+    if(message.content.toLowerCase().includes("peace")) {
+        message.channel.send({
+            content: "The United Nations Mission in Liberia began arriving in September 2003 to provide security and monitor the peace accord,[54] and an interim government took power the following October.[55] The subsequent 2005 elections were internationally regarded as the freest and fairest in Liberian history.[56] Ellen Johnson Sirleaf, a US-educated economist, former Minister of Finance and future Nobel Prize for Peace winner, was elected as the first female president in Africa.[56] Upon her inauguration, Sirleaf requested the extradition of Taylor from Nigeria and transferred him to the SCSL for trial in The Hague.[57][58]",
+        })
+    }
+    if(message.content.toLowerCase().includes("crimes")) {
+        message.channel.send({
+            content: "In 2006, the government established a Truth and Reconciliation Commission to address the causes and crimes of the civil war.[59] In 2011, July 26 was proclaimed by President Ellen Johnson Sirleaf to be observed as National Independence Day.[60] In October 2011, peace activist Leymah Gbowee received the Nobel Peace Prize in her work of leading a women's peace movement that brought to an end to the Second Liberian Civil War in 2003.",
+        })
+    }
+    if(message.content.toLowerCase().includes("truth")) {
+        message.channel.send({
+            content: "In 2006, the government established a Truth and Reconciliation Commission to address the causes and crimes of the civil war.[59] In 2011, July 26 was proclaimed by President Ellen Johnson Sirleaf to be observed as National Independence Day.[60] In October 2011, peace activist Leymah Gbowee received the Nobel Peace Prize in her work of leading a women's peace movement that brought to an end to the Second Liberian Civil War in 2003.",
+        })
+    }
+    if(message.content.toLowerCase().includes("football")) {
+        message.channel.send({
+            content: "Following the 2017 Liberian general election, former professional football striker George Weah, one of the greatest African players of all time,[61][62] was sworn in as president on January 22, 2018, becoming the fourth youngest serving president in Africa.[63] The inauguration marked Liberia's first fully democratic transition in 74 years.[64] Weah cited fighting corruption, reforming the economy, combating illiteracy, and improving life conditions as the main targets of his presidency.[64]",
+        })
+    }
+    if(message.content.toLowerCase().includes("geography") || message.content.toLowerCase().includes("location") || message.content.toLowerCase().includes("ocean") || message.content.toLowerCase().includes("biome") || message.content.toLowerCase().includes("water") || message.content.toLowerCase().includes("river") || message.content.toLowerCase().includes("high") || message.content.toLowerCase().includes("sea") || message.content.toLowerCase().includes("wind")) {
+        message.channel.send({
+            content: "Liberia is situated in West Africa, bordering the North Atlantic Ocean to the country's southwest. It lies between latitudes 4° and 9°N, and longitudes 7° and 12°W.\n\nThe landscape is characterized by mostly flat to rolling coastal plains that contain mangroves and swamps, which rise to a rolling plateau and low mountains in the northeast.[65]\n\nTropical rainforests cover the hills, while elephant grass and semi-deciduous forests make up the dominant vegetation in the northern sections.[65] The equatorial climate, in the south of the country, is hot year-round with heavy rainfall from May to October with a short interlude in mid-July to August.[65] During the winter months of November to March, dry dust-laden harmattan winds blow inland, causing many problems for residents.[65]\n\n",
+        })
+        message.channel.send({
+            content: "Liberia's watershed tends to move in a southwestern pattern towards the sea as new rains move down the forested plateau off the inland mountain range of Guinée Forestière, in Guinea. Cape Mount near the border with Sierra Leone receives the most precipitation in the nation.[65]\n\nLiberia's main northwestern boundary is traversed by the Mano River while its southeast limits are bounded by the Cavalla River.[65] Liberia's three largest rivers are St. Paul exiting near Monrovia, the river St. John at Buchanan, and the Cestos River, all of which flow into the Atlantic. The Cavalla is the longest river in the nation at 515 kilometers (320 mi).[65]\n\nThe highest point wholly within Liberia is Mount Wuteve at 1,440 meters (4,724 ft) above sea level in the northwestern Liberia range of the West Africa Mountains and the Guinea Highlands.[65] However, Mount Nimba near Yekepa, is higher at 1,752 meters (5,748 ft) above sea level but is not wholly within Liberia as Nimba shares a border with Guinea and Ivory Coast and is their tallest mountain as well.[66]",
+        })
+    }
+    if(message.content.toLowerCase().includes("forest")) {
+        message.channel.send({
+            content: "Forests on the coastline are composed mostly of salt-tolerant mangrove trees, while the more sparsely populated inland has forests opening onto a plateau of drier grasslands. The climate is equatorial, with significant rainfall during the May–October rainy season and harsh harmattan winds the remainder of the year. Liberia possesses about forty percent of the remaining Upper Guinean rainforest. It was an important producer of rubber in the early 20th century.[citation needed] Four terrestrial ecoregions lie within Liberia's borders: Guinean montane forests, Western Guinean lowland forests, Guinean forest–savanna mosaic, and Guinean mangroves.[67] It had a 2019 Forest Landscape Integrity Index mean score of 4.79/10, ranking it 116th globally out of 172 countries.[68] ",
+        })
+    }
+    if(message.content.toLowerCase().includes("counties")) {
+        message.channel.send({
+            content: "Liberia is divided into fifteen counties, which, in turn, are subdivided into a total of 90 districts and further subdivided into clans. The oldest counties are Grand Bassa and Montserrado, both founded in 1839 prior to Liberian independence. Gbarpolu is the newest county, created in 2001. Nimba is the largest of the counties in size at 11,551 km2 (4,460 sq mi), while Montserrado is the smallest at 1,909 km2 (737 sq mi).[69] Montserrado is also the most populous county with 1,144,806 residents as of the 2008 census.[69]\n\nThe fifteen counties are administered by superintendents appointed by the president. The Constitution calls for the election of various chiefs at the county and local level, but these elections have not taken place since 1985 due to war and financial constraints.[70]\n\nParallel to the administrative divisions of the country are the local and municipal divisions. Liberia currently does not have any constitutional framework or uniform statutes which deal with the creation or revocation of local governments.[71] All existing local governments – cities, townships, and a borough – were created by specific acts of the Liberian government, and thus the structure and duties/responsibilities of each local government varies greatly from one to the other.",
+        })
+    }
+    if(message.content.toLowerCase().includes("nature") || message.content.toLowerCase().includes("bad") || message.content.toLowerCase().includes("meat")) {
+        message.channel.send({
+            content: "Endangered species are hunted for human consumption as bushmeat in Liberia.[72] Species hunted for food in Liberia include elephants, pygmy hippopotamus, chimpanzees, leopards, duikers, and other monkeys.[72] Bushmeat is often exported to neighboring Sierra Leone and Ivory Coast, despite a ban on the cross-border sale of wild animals.[72]\n\nBushmeat is widely eaten in Liberia, and is considered a delicacy.[74] A 2004 public opinion survey found that bushmeat ranked second behind fish amongst residents of the capital Monrovia as a preferred source of protein.[74] Of households where bushmeat was served, 80% of residents said they cooked it \"once in a while,\" while 13% cooked it once a week and 7% cooked bushmeat daily.[74] The survey was conducted during the last civil war, and bushmeat consumption is now believed to be far higher.[74]\n\n",
+        })
+        message.channel.send({
+            content: "Liberia is a global biodiversity hotspot—a significant reservoir of biodiversity that is under threat from humans.[75]\n\nSlash-and-burn agriculture is one of the human activities eroding Liberia's natural forests.[76] A 2004 UN report estimated that 99% of Liberians burned charcoal and fuel wood for cooking and heating, resulting in deforestation.[76]\n\nIllegal logging has increased in Liberia since the end of the Second Civil War in 2003.[75] In 2012, President Sirleaf granted licenses to companies to cut down 58% of all the primary rainforest left in Liberia.[75] After international protests, many of those logging permits were canceled.[75] In September 2014, Liberia and Norway struck an agreement whereby Liberia ceased all logging in exchange for $150 million in development aid.[75]\n\nPollution is a significant issue in Monrovia.[77] Since 2006, the international community has paid for all garbage collection and disposal in Monrovia via the World Bank.[78] ",
+        })
+    }
 })
-
 client.login(process.env.TOKEN)
